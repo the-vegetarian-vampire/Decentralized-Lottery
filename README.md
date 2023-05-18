@@ -1,6 +1,6 @@
 # Lesson-10-Smart-Contract-Lottery
 
-Lesson 10 in progress...
+Lesson 10 of Patrick Collin's course, in progress...
 
 1. Deploy using [IPFS](https://github.com/ipfs) and fleek   
 
