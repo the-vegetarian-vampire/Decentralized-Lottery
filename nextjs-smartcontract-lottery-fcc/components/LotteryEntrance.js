@@ -112,7 +112,6 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            <h1 style={{ padding: "5px" }}>Lottery</h1>
             {raffleAddress ? (
                 <>
                     <button
@@ -129,19 +128,26 @@ export default function LotteryEntrance() {
                         disabled={isLoading || isFetching}
                     >
                         {isLoading || isFetching ? (
-                            <div className="animate-spin spinner-border h-8 w-8 border-b-2 rounded-full"></div>
+                            <div className="animate-spin spinner-border h-8 w-8 border-b-2 rounded-full">
+                                <img src="fav.png"></img>
+                            </div>
                         ) : (
                             "Enter Raffle"
                         )}
                     </button>
                     <div style={{ padding: "5px" }}>
-                        Entrance Fee: {ethers.utils.formatUnits(entranceFee, "ether")} ETH
+                        Entrance Fee: <b>{ethers.utils.formatUnits(entranceFee, "ether")} ETH </b>
                     </div>
                     <div style={{ padding: "5px" }}>
-                        Current number of players is: <b>{numberOfPlayers}</b>
+                        Current number of players: <b>{numberOfPlayers}</b>
                     </div>
                     <div style={{ padding: "5px" }}>
                         Previous winner: <b>{recentWinner}</b>
+                    </div>
+                    <br></br>
+                    <div style={{ padding: "5px" }}>
+                        {" "}
+                        <a href="https://vrf.chain.link/">Chainlink VRF</a>
                     </div>
                 </>
             ) : (
