@@ -4,7 +4,7 @@ Lesson 10 of [Patrick Collin's](https://github.com/PatrickAlphaC/nextjs-smartcon
 
 This uses Lesson 9 [repo](https://github.com/the-vegetarian-vampire/Lesson-9-Hardhat-Smart-Contract-Lottery) as the contract.   
 - [Chainlink VRF](https://vrf.chain.link/sepolia/1983)
-- [Etherscan](https://sepolia.etherscan.io/address/0xF5599d7F68604FD91b2a2FB7BD085CdfF000A8d2)   
+- [Etherscan](https://sepolia.etherscan.io/address/0xF5599d7F68604FD91b2a2FB7BD085CdfF000A8d2) (Sepolia Testnet)   
 
 1. Deploy using [IPFS](https://github.com/ipfs) and fleek   
 
