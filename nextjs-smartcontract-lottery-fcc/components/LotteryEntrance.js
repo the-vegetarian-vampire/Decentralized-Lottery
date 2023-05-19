@@ -149,6 +149,13 @@ export default function LotteryEntrance() {
                         {" "}
                         <a href="https://vrf.chain.link/">Chainlink VRF</a>
                     </div>
+<div style={{ padding: "5px" }}>
+                        {" "}
+                        <a href="https://sepolia.etherscan.io/address/0xF5599d7F68604FD91b2a2FB7BD085CdfF000A8d2">
+                            Etherscan
+                        </a>{" "}
+                        [contract address]
+                    </div>
                 </>
             ) : (
                 <div>Please connect to a supported chain </div>
