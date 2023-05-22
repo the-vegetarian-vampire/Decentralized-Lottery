@@ -149,12 +149,21 @@ export default function LotteryEntrance() {
                         {" "}
                         <a href="https://vrf.chain.link/">Chainlink VRF</a>
                     </div>
-<div style={{ padding: "5px" }}>
+                    <div style={{ padding: "5px" }}>
                         {" "}
                         <a href="https://sepolia.etherscan.io/address/0xF5599d7F68604FD91b2a2FB7BD085CdfF000A8d2">
-                            Etherscan
+                            Contract Address
                         </a>{" "}
-                        [contract address]
+                    </div>
+                    <br></br>
+                    <div style={{ padding: "5px" }}>
+                        {" "}
+                        John's {}
+                        <a href="https://www.youtube.com/channel/UCFMVgLr81G-opGABi2c8-PA">
+                            Youtube {}
+                        </a>
+                        and {}
+                        <a href="https://github.com/the-vegetarian-vampire">Github</a>
                     </div>
                 </>
             ) : (
