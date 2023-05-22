@@ -1,4 +1,4 @@
-# Lesson-10-Smart-Contract-Lottery
+# Lesson-10-Decentralized-Lottery
 
 Lesson 10 of [Patrick Collin's](https://github.com/PatrickAlphaC/nextjs-smartcontract-lottery-fcc) course, in progress...   
 
