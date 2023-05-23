@@ -1,6 +1,6 @@
 # Lesson-10-Decentralized-Lottery
 
-Deployed using IPFS [here!](http://bafybeia6xzogwx6zoixaagbbvxqyguypjbcml7vwl4s7brukbw3rm5x3kq.ipfs.localhost:8080/) and Fleek [here!](https://ancient-sea-0742.on.fleek.co/)   
+### Deployed using IPFS [here!](http://bafybeia6xzogwx6zoixaagbbvxqyguypjbcml7vwl4s7brukbw3rm5x3kq.ipfs.localhost:8080/) and Fleek [here!](https://ancient-sea-0742.on.fleek.co/)   
 
 - Lesson 10 of [Patrick Collin's](https://github.com/PatrickAlphaC/nextjs-smartcontract-lottery-fcc) course and uses Lesson 9 [repo](https://github.com/the-vegetarian-vampire/Lesson-9-Hardhat-Smart-Contract-Lottery) as the contract.   
 - [Chainlink VRF](https://vrf.chain.link/sepolia/1983)
